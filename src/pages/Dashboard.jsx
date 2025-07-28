@@ -14,6 +14,7 @@ const Dashboard = () => {
         <DashboardCard title="Memorized" value="45%" icon="💯" />
         <DashboardCard title="Today's Goal" value="Ayah 5 of Baqarah" icon="🎯" />
         <DashboardCard title="Surahs Completed" value="6" icon="✅" />
+        <DashboardCard title="Daily Streak" value="3" icon="🔥" />
       </div>
 
       <div className="mb-6">
