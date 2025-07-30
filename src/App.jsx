@@ -5,11 +5,13 @@ import Game from "./pages/Game";
 import Account from "./pages/Account";
 import More from "./pages/More";
 import Practice from "./pages/Practice";
+import SurahList from "./pages/mushaf/SurahList";
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<Dashboard />} />
+      <Route path="/SurahList" element={<SurahList />} />
       <Route path="/lessons" element={<Lessons />} />
       <Route path="/practice" element={<Practice />} />
       <Route path="/game" element={<Game />} />

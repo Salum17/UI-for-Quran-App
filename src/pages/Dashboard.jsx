@@ -11,6 +11,7 @@ const Dashboard = () => {
       <h1 className="text-3xl font-bold mb-6">📖 Dashboard</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+        <DashboardCard title="Read Quran" value="" icon="📖" />
         <DashboardCard title="Memorized" value="45%" icon="💯" />
         <DashboardCard title="Today's Goal" value="Ayah 5 of Baqarah" icon="🎯" />
         <DashboardCard title="Surahs Completed" value="6" icon="✅" />

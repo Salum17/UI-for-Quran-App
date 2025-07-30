@@ -1,12 +1,13 @@
 import { Link, useLocation } from "react-router-dom";
-import { FiHome, FiBookOpen, FiPlay, FiUser, FiMoreHorizontal, FiAward } from "react-icons/fi"; // example icons
+import { FiHome, FiBookOpen, FiPlay, FiUser, FiMoreHorizontal, FiAward, FiPenTool } from "react-icons/fi"; // example icons
 
 const Sidebar = () => {
   const { pathname } = useLocation();
 
   const navItems = [
     { name: "Dashboard", path: "/", icon: <FiHome /> },
-    { name: "Lessons", path: "/lessons", icon: <FiBookOpen /> },
+    { name: "Mushaf", path: "/SurahList", icon: <FiBookOpen /> },
+    { name: "Lessons", path: "/lessons", icon: <FiPenTool /> },
     { name: "Practice", path: "/practice", icon: <FiAward /> },
     { name: "Game", path: "/game", icon: <FiPlay /> },
     { name: "Account", path: "/account", icon: <FiUser /> },
